@@ -64,7 +64,7 @@ return [
      *   You should treat it as extremely sensitive data.
      */
     'Security' => [
-        'salt' => env('SECURITY_SALT', '__SALT__'),
+        'salt' => env('SECURITY_SALT', 'pl345e-P45s_7h3*S@l7!'),
     ],
 
     /**
@@ -228,10 +228,10 @@ return [
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
              * the following line and set the port accordingly
              */
-            //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'my_app',
+            'port' => '3306',
+            'username' => 'root',
+            'password' => 'tai',
+            'database' => 'first_DB',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
