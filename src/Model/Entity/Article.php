@@ -1,15 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tomasz
- * Date: 03.12.2017
- * Time: 17:03
- */
-
+// src/Model/Entity/Article.php
 namespace App\Model\Entity;
 
+use Cake\ORM\Entity;
 
-class Article
+class Article extends Entity
 {
-
+    protected $_accessible = [
+        '*' => true,
+        'id' => false,
+        'slug' => false,
+    ];
 }

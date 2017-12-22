@@ -9,7 +9,8 @@
 namespace App\Controller;
 
 
-class MyappController
+class MyappController extends AppController
 {
+
 
 }
